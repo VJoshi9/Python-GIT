@@ -2,11 +2,11 @@ import random as r
 flag = "Y"
 while flag =="Y" or flag == "y":
 
-    ele = r.randint(0,2)
+    a = r.randint(0,2)
     lst = ["rock","paper","scissor"]
     inp = input("Rock/paper/scissor")
     user = inp.lower()
-    comp = lst[ele]
+    comp = lst[a]
     mess = "Your input is {} and comp input is {}"
     print(mess.format(user,comp))
     if user == comp:
