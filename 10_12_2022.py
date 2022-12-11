@@ -1,19 +1,19 @@
-# # classesObject.py
-# class Laptop:
-#     def __init__(self)  :
+# classesObject.py
+class Laptop:
+    def __init__(self)  :
         
 
-#         print("Hello World")
+        print("Hello World")
     
-#     def config(self):
-#         print("DELL", "i5 11th gen, 1TB HDD, 256GB SSD")
+    def config(self):
+        print("DELL", "i5 11th gen, 1TB HDD, 256GB SSD")
 
-# laptop1 = Laptop()
-# laptop2 = Laptop()
-# # Laptop.config(laptop1)
-# # Laptop.config(laptop2)
-# laptop1.config()
-# laptop2.config()
+laptop1 = Laptop()
+laptop2 = Laptop()
+# Laptop.config(laptop1)
+# Laptop.config(laptop2)
+laptop1.config()
+laptop2.config()
 
 
 
@@ -61,4 +61,19 @@ else:
 
 print(p1.number)
 print(p2.number)
+
+class Car:
+    # Instance variables: The value of those variables which varies from object to object.
+    def __init__(self):
+        self.company = "BMW"
+        self.mileage = 10
+
+car1 = Car()
+car2 = Car()
+
+Car.wheels = 4
+print(car1.mileage, car1.wheels)
+print(car2.mileage, car2.wheels)
+
+
 
